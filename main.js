@@ -453,3 +453,5 @@ app.delete("/api/admin/users/:id", auth, (req, res) => {
 app.listen(3000, () => {
     console.log("Сервер запущен на порту 3000")
 })
+
+const gey= 1
