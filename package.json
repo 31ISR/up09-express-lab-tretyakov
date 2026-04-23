@@ -1,0 +1,32 @@
+{
+  "name": "up09-express-tretyakov",
+  "version": "1.0.0",
+  "description": "Краткое руководство по написанию REST API на Node.js + Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/31ISR/up09-express-tretyakov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/31ISR/up09-express-tretyakov/issues"
+  },
+  "homepage": "https://github.com/31ISR/up09-express-tretyakov#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.8.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
